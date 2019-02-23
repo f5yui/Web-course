@@ -1,0 +1,504 @@
+body{ /*主体部分的外观设计*/
+  background-color: #E9E7E4;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        20px;
+  margin:           10px;
+  padding:0;
+}
+#header {/*顶部的外观设计*/
+  width:            1330px;
+  background-color: #E9E7E4;
+  height:           150px;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        20px;
+  margin:           auto;
+}
+#choose {/*导航栏的外观设计*/
+  background-color: #D7D7F2;
+  margin:           1px;
+  padding:			10px;
+  height:           70px;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        120%;
+  text-align:center;
+}
+#choose li{/*实现列表横向排列*/
+  float:left;
+  font-style:normal;
+  list-style: none;
+  letter-spacing:5px;
+  margin:0px 35px;
+  
+}
+
+#main1 {/*歌曲页面的左框设计*/
+  background-color: #FEEDED;
+  background:       #efe5d0 url(images/yinfu.jpg) top left;
+  font-size:        100%;
+  margin:           0px 330px 10px 10px;
+  width:            900px;
+  padding:10px;
+  text-indent:2em;
+}
+#main2{/*曲库页面的左框设计*/
+  background-color: #FEEDED;
+  background:       #efe5d0 url(images/yinfulr.jpg) top left;
+  background-size:98%;
+  font-size:        100%;
+  margin:           0px 330px 10px 10px;
+  width:            1250px;
+  padding:10px;
+  margin:0 40px 0 40px ;
+  text-indent:2em;
+}
+p{/*行间距*/
+	line-height:30px;
+}
+#geci{/*歌词页面的设计*/
+  padding-bottom:10px;
+}
+#cebian {/*右侧边栏的设计*/
+	float:      right;
+	line-height:30px;
+}
+#shangbian {/*右侧边栏上*/
+  background:       #5EBEC1 url(images/yinfu1.jpg) bottom right;
+  font-size:        big;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  width:            300px;
+}
+#xiabian {/*右侧边栏下*/
+  background:       #5EBEC1 url(images/yinfu1.jpg) bottom right;
+  font-size:        big;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  width:            300px; 
+}
+#footer {/*页脚的设计*/
+  background-color: #D7D7F2;
+  color:            #3c3c3c;
+  text-align:       center;
+  padding:          15px;
+  margin:           10px;
+  font-size:        50%;
+  clear:			right;
+  height:           90px;
+}
+#zhuanfeng1{/*图片位置设计*/
+	position:absolute;
+	left:325px; 
+	top:270px;
+}
+#zhuanfeng2{
+	position:absolute;
+	left:650px; 
+	top:270px;
+}
+h1{
+  font-size:        230%;
+  color:            #000000;
+  line-height:30px;
+  
+}
+h2 { font-size:        120%;
+  color:            #954b4b; 
+  }
+
+.biaoti { color: #954b4b; }
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+#allcontent{/*窗口冻结实现*/
+	width:            1330px;
+	background-color: #E9E7E6;
+	margin-left:      auto;
+	margin-right:     auto;
+
+}
+/*曲库页面*/
+#libiao1{ 
+	background:url(images/kiseki.jpg) no-repeat left center ; 
+	background-size:20%;
+} 
+#libiao2{ 
+	background:url(images/ruguo.jpg) no-repeat left center ; 
+	background-size:20%;
+} 
+#libiao3{ 
+	background:url(images/764910471.jpg) no-repeat left center; 
+	background-size:20%;
+} 
+#libiao4{ 
+	background:url(images/hua.jpg) no-repeat left center; 
+	background-size:20%;
+} 
+#libiao5{ 
+	background:url(images/1969898503.jpg) no-repeat left center;
+	background-size:20%;	
+} 
+.tiao{ 
+	font-size:25px; 
+	padding-left:50px;
+	line-height:80px;	
+	margin:5px;
+} 
+#kuang{
+	margin:50px 400px 50px 400px;
+	background-color: #D7D7F2;
+	padding:10px;
+}
+
+/* 音乐播放器外观设计（非原创） */
+.audioplayer
+{
+	height: 2.5em; 
+	color: 	#fff;
+	text-shadow: 1px 1px 0 #000;
+	border: 1px solid #222;
+	position: relative;
+	z-index: 1;
+	background: #333;
+	background: -webkit-gradient( linear, left top, left bottom, from( #444 ), to( #222 ) );
+	background: -webkit-linear-gradient( top, #444, #222 );
+	background: -moz-linear-gradient( top, #444, #222 );
+	background: -ms-radial-gradient( top, #444, #222 );
+	background: -o-linear-gradient( top, #444, #222 );
+	background: linear-gradient( top, #444, #222 );
+	-webkit-box-shadow: inset 0 1px 0 rgba( 255, 255, 255, .15 ), 0 0 1.25em rgba( 0, 0, 0, .5 ); /* 20 */
+	-moz-box-shadow: inset 0 1px 0 rgba( 255, 255, 255, .15 ), 0 0 1.25em rgba( 0, 0, 0, .5 ); /* 20 */
+	box-shadow: inset 0 1px 0 rgba( 255, 255, 255, .15 ), 0 0 1.25em rgba( 0, 0, 0, .5 ); /* 20 */
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+	.audioplayer-mini
+	{
+		width: 2.5em; /* 40 */
+		margin: 0 auto;
+	}
+	.audioplayer > div
+	{
+		position: absolute;
+	}
+	.audioplayer-playpause
+	{
+		width: 2.5em; /* 40 */
+		height: 100%;
+		text-align: left;
+		text-indent: -9999px;
+		cursor: pointer;
+		z-index: 2;
+		top: 0;
+		left: 0;
+	}
+		.audioplayer:not(.audioplayer-mini) .audioplayer-playpause
+		{
+			border-right: 1px solid #555;
+			border-right-color: rgba( 255, 255, 255, .1 );
+		}
+		.audioplayer-mini .audioplayer-playpause
+		{
+			width: 100%;
+		}
+		.audioplayer-playpause:hover,
+		.audioplayer-playpause:focus
+		{
+			background-color: #222;
+		}
+		.audioplayer-playpause a
+		{
+			display: block;
+		}
+		.audioplayer:not(.audioplayer-playing) .audioplayer-playpause a
+		{
+			width: 0;
+			height: 0;
+			border: 0.5em solid transparent; /* 8 */
+			border-right: none;
+			border-left-color: #fff;
+			content: '';
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -0.5em 0 0 -0.25em; /* 8 4 */
+		}
+		.audioplayer-playing .audioplayer-playpause a
+		{
+			width: 0.75em; /* 12 */
+			height: 0.75em; /* 12 */
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -0.375em 0 0 -0.375em; /* 6 */
+		}
+			.audioplayer-playing .audioplayer-playpause a:before,
+			.audioplayer-playing .audioplayer-playpause a:after
+			{
+				width: 40%;
+				height: 100%;
+				background-color: #fff;
+				content: '';
+				position: absolute;
+				top: 0;
+			}
+			.audioplayer-playing .audioplayer-playpause a:before
+			{
+				left: 0;
+			}
+			.audioplayer-playing .audioplayer-playpause a:after
+			{
+				right: 0;
+			}
+	.audioplayer-time
+	{
+		width: 4.375em; /* 70 */
+		height: 100%;
+		line-height: 2.375em; /* 38 */
+		text-align: center;
+		z-index: 2;
+		top: 0;
+	}
+		.audioplayer-time-current
+		{
+			border-left: 1px solid #111;
+			border-left-color: rgba( 0, 0, 0, .25 );
+			left: 2.5em; /* 40 */
+		}
+		.audioplayer-time-duration
+		{
+			border-right: 1px solid #555;
+			border-right-color: rgba( 255, 255, 255, .1 );
+			right: 2.5em; /* 40 */
+		}
+			.audioplayer-novolume .audioplayer-time-duration
+			{
+				border-right: 0;
+				right: 0;
+			}
+	.audioplayer-bar
+	{
+		height: 0.875em; /* 14 */
+		background-color: #222;
+		cursor: pointer;
+		z-index: 1;
+		top: 50%;
+		right: 6.875em; /* 110 */
+		left: 6.875em; /* 110 */
+		margin-top: -0.438em; /* 7 */
+	}
+		.audioplayer-novolume .audioplayer-bar
+		{
+			right: 4.375em; /* 70 */
+		}
+		.audioplayer-bar div
+		{
+			width: 0;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.audioplayer-bar-loaded
+		{
+			background-color: #333;
+			z-index: 1;
+		}
+		.audioplayer-bar-played
+		{
+			background: #007fd1;
+			background: -webkit-gradient( linear, left top, right top, from( #007fd1 ), to( #c600ff ) );
+			background: -webkit-linear-gradient( left, #007fd1, #c600ff );
+			background: -moz-linear-gradient( left, #007fd1, #c600ff );
+			background: -ms-radial-gradient( left, #007fd1, #c600ff );
+			background: -o-linear-gradient( left, #007fd1, #c600ff );
+			background: linear-gradient( left, #007fd1, #c600ff );
+			z-index: 2;
+		}
+	.audioplayer-volume
+	{
+		width: 2.5em; /* 40 */
+		height: 100%;
+		border-left: 1px solid #111;
+		border-left-color: rgba( 0, 0, 0, .25 );
+		text-align: left;
+		text-indent: -9999px;
+		cursor: pointer;
+		z-index: 2;
+		top: 0;
+		right: 0;
+	}
+		.audioplayer-volume:hover,
+		.audioplayer-volume:focus
+		{
+			background-color: #222;
+		}
+		.audioplayer-volume-button
+		{
+			width: 100%;
+			height: 100%;
+		}
+			.audioplayer-volume-button a
+			{
+				width: 0.313em; /* 5 */
+				height: 0.375em; /* 6 */
+				background-color: #fff;
+				display: block;
+				position: relative;
+				z-index: 1;
+				top: 40%;
+				left: 35%;
+			}
+				.audioplayer-volume-button a:before,
+				.audioplayer-volume-button a:after
+				{
+					content: '';
+					position: absolute;
+				}
+				.audioplayer-volume-button a:before
+				{
+					width: 0;
+					height: 0;
+					border: 0.5em solid transparent; /* 8 */
+					border-left: none;
+					border-right-color: #fff;
+					z-index: 2;
+					top: 50%;
+					right: -0.25em;
+					margin-top: -0.5em; /* 8 */
+				}
+				.audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after
+				{
+					/* "volume" icon by Nicolas Gallagher, http://nicolasgallagher.com/pure-css-gui-icons */
+					width: 0.313em; /* 5 */
+					height: 0.313em; /* 5 */
+					border: 0.25em double #fff; /* 4 */
+					border-width: 0.25em 0.25em 0 0; /* 4 */
+					left: 0.563em; /* 9 */
+					top: -0.063em; /* 1 */
+					-webkit-border-radius: 0 0.938em 0 0; /* 15 */
+					-moz-border-radius: 0 0.938em 0 0; /* 15 */
+					border-radius: 0 0.938em 0 0; /* 15 */
+					-webkit-transform: rotate( 45deg );
+					-moz-transform: rotate( 45deg );
+					-ms-transform: rotate( 45deg );
+					-o-transform: rotate( 45deg );
+					transform: rotate( 45deg );
+				}
+		.audioplayer-volume-adjust
+		{
+			height: 6.25em; /* 100 */
+			cursor: default;
+			position: absolute;
+			left: 0;
+			right: -1px;
+			top: -9999px;
+			background: #222;
+			background: -webkit-gradient( linear, left top, left bottom, from( #444 ), to( #222 ) );
+			background: -webkit-linear-gradient( top, #444, #222 );
+			background: -moz-linear-gradient( top, #444, #222 );
+			background: -ms-radial-gradient( top, #444, #222 );
+			background: -o-linear-gradient( top, #444, #222 );
+			background: linear-gradient( top, #444, #222 );
+			-webkit-border-top-left-radius: 2px;
+			-webkit-border-top-right-radius: 2px;
+			-moz-border-radius-topleft: 2px;
+			-moz-border-radius-topright: 2px;
+			border-top-left-radius: 2px;
+			border-top-right-radius: 2px;
+		}
+			.audioplayer-volume:not(:hover) .audioplayer-volume-adjust
+			{
+				opacity: 0;
+			}
+			.audioplayer-volume:hover .audioplayer-volume-adjust
+			{
+				top: auto;
+				bottom: 100%;
+			}
+			.audioplayer-volume-adjust > div
+			{
+				width: 40%;
+				height: 80%;
+				background-color: #222;
+				cursor: pointer;
+				position: relative;
+				z-index: 1;
+				margin: 30% auto 0;
+			}
+				.audioplayer-volume-adjust div div
+				{
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					background: #007fd1;
+					background: -webkit-gradient( linear, left bottom, left top, from( #007fd1 ), to( #c600ff ) );
+					background: -webkit-linear-gradient( bottom, #007fd1, #c600ff );
+					background: -moz-linear-gradient( bottom, #007fd1, #c600ff );
+					background: -ms-radial-gradient( bottom, #007fd1, #c600ff );
+					background: -o-linear-gradient( bottom, #007fd1, #c600ff );
+					background: linear-gradient( bottom, #007fd1, #c600ff );
+				}
+		.audioplayer-novolume .audioplayer-volume
+		{
+			display: none;
+		}
+
+	.audioplayer-play,
+	.audioplayer-pause,
+	.audioplayer-volume a
+	{
+		-webkit-filter: drop-shadow( 1px 1px 0 #000 );
+		-moz-filter: drop-shadow( 1px 1px 0 #000 );
+		-ms-filter: drop-shadow( 1px 1px 0 #000 );
+		-o-filter: drop-shadow( 1px 1px 0 #000 );
+		filter: drop-shadow( 1px 1px 0 #000 );
+	}
+	.audioplayer-bar,
+	.audioplayer-bar div,
+	.audioplayer-volume-adjust div
+	{
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+	.audioplayer-bar,
+	.audioplayer-volume-adjust > div
+	{
+		-webkit-box-shadow: -1px -1px 0 rgba( 0, 0, 0, .5 ), 1px 1px 0 rgba( 255, 255, 255, .1 );
+		-moz-box-shadow: -1px -1px 0 rgba( 0, 0, 0, .5 ), 1px 1px 0 rgba( 255, 255, 255, .1 );
+		box-shadow: -1px -1px 0 rgba( 0, 0, 0, .5 ), 1px 1px 0 rgba( 255, 255, 255, .1 );
+	}
+	.audioplayer-volume-adjust div div,
+	.audioplayer-bar-played
+	{
+		-webkit-box-shadow: inset 0 0 5px rgba( 255, 255, 255, .5 );
+		-moz-box-shadow: inset 0 0 5px rgba( 255, 255, 255, .5 );
+		box-shadow: inset 0 0 5px rgba( 255, 255, 255, .5 );
+	}
+	.audioplayer-volume-adjust
+	{
+		-webkit-box-shadow: -2px -2px 2px rgba( 0, 0, 0, .15 ), 2px -2px 2px rgba( 0, 0, 0, .15 );
+		-moz-box-shadow: -2px -2px 2px rgba( 0, 0, 0, .15 ), 2px -2px 2px rgba( 0, 0, 0, .15 );
+		box-shadow: -2px -2px 2px rgba( 0, 0, 0, .15 ), 2px -2px 2px rgba( 0, 0, 0, .15 );
+	}
+	.audioplayer *,
+	.audioplayer *:before,
+	.audioplayer *:after
+	{
+		-webkit-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
+		-moz-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
+		-ms-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
+		-o-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
+		transition: color .25s ease, background-color .25s ease, opacity .5s ease;
+	}

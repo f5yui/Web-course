@@ -1,0 +1,134 @@
+body { /*主体部分的外观设计*/
+  background-color: #E9E7E4;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        20px;
+  margin:           20px;
+  padding:			20px;
+}
+#header {/*顶部的外观设计*/
+  background-color: #E9E7E4  ;
+  height:           150px;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        20px;
+  margin:           auto;
+}
+#choose {/*导航栏的外观设计*/
+  background-color: #D7D7F2;
+  margin:           1px;
+  padding:			10px;
+  height:           75px;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        big;
+  text-align:center;
+}
+#choose li{/*实现列表横向排列*/
+  float:			left;
+  font-style:		normal;
+  list-style: 		none;
+  letter-spacing:	5px;
+  margin:			0px 35px;
+}
+#middle1{/*推荐框设计*/
+  background-color: #E9E7E4;
+  margin:           1px;
+  padding:			10px;
+  height:           120px;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        big;
+  text-align:		center;
+}
+#middle1 li{
+  float:			left;
+  font-style:		normal;
+  list-style:		none;
+  letter-spacing:	5px;
+  margin:			0px 35px;
+}
+#middle2{
+  background-color: #E9E7E4;
+  margin:           1px;
+  padding:			20px;
+  height:           80px;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        big;
+  text-align:		center;
+}
+#middle2 li{
+  float:			left;
+  font-style:		normal;
+  list-style: 		none;
+  letter-spacing:	5px;
+  margin:			0px 35px;
+}
+#main {/*歌曲页面的左框设计*/
+  background-color: #FEEDED;
+  background:       #efe5d0 url(images/yinfu.jpg) top left;
+  font-size:        105%;
+  margin:           0px 330px 10px 10px;
+  width:            900px;
+  padding:20px;
+  text-indent:2em;
+}
+#geci{
+  padding-bottom:10px;
+}
+#cebian {/*右侧边栏的设计*/
+	float:      right;
+}
+#shangbian {
+  background:       #5EBEC1 url(images/yinfu1.jpg) bottom right;
+  font-size:        big;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  width:            250px;
+}
+#xiabian {
+  background:       #5EBEC1 url(images/yinfu1.jpg) bottom right;
+  font-size:        big;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+
+}
+#au{
+	left:300px;
+	margin:10px;
+	padding:10px;
+
+}
+#footer {/*页脚的设计*/
+  background-color: #D7D7F2;
+  color:            #3c3c3c;
+  text-align:       center;
+  padding:          15px;
+  margin:           10px;
+  font-size:        50%;
+  clear:			right;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+h2 { 
+	font-size:		 110%; 
+}
+
+.biaoti { color: #954b4b; }
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+#allcontent{/*窗口冻结实现*/
+	width:            1250px;
+	background-color: #E9E7E6;
+	margin:10px;
+	margin-left:      auto;
+	margin-right:     auto;
+
+}
